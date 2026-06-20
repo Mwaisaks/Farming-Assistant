@@ -112,4 +112,4 @@ with gr.Blocks(css=CSS, title="Krishi — Natural Farming Consultant") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch(share=True)
+    demo.launch()
