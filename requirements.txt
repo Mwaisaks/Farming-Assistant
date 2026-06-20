@@ -1,6 +1,9 @@
 # Core UI
 gradio==4.44.1
 
+# Build system deps (required by openai-whisper's legacy build)
+setuptools>=65.0.0
+
 # Speech-to-Text
 openai-whisper==20231117
 
