@@ -1,0 +1,26 @@
+# Core UI
+gradio==4.44.1
+
+# Speech-to-Text
+openai-whisper==20231117
+
+# LLM (Groq)
+groq==0.9.0
+
+# Text-to-Speech
+gTTS==2.5.1
+
+# RAG
+chromadb==0.5.3
+sentence-transformers==3.0.1
+
+# PDF text extraction (for Field-Guide PDF)
+pymupdf==1.24.9
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Required by Whisper
+torch==2.3.1
+numpy==1.26.4
+ffmpeg-python==0.2.0

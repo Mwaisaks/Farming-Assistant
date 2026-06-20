@@ -1,0 +1,25 @@
+# Environment — never commit real keys
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ChromaDB persisted data (if ever switched to disk mode)
+chroma_db/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Claude Code settings (local only)
+.claude/
