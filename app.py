@@ -14,7 +14,7 @@ rag.init()
 
 # ── Core pipeline ─────────────────────────────────────────────────────────────
 
-def process(audio_path: str, feature_type: str) -> tuple[str, str, str]:
+def process(audio_path: str, feature_type: str):
     """
     Full pipeline: audio → transcript → LLM response → speech.
     Returns (transcript, response_text, audio_output_path).
