@@ -78,7 +78,6 @@ def build_tab(label: str, pipeline_fn, example_prompt: str):
         audio_out = gr.Audio(
             label="🔊 Listen to advice",
             type="filepath",
-            autoplay=True,
         )
 
         submit_btn.click(
@@ -112,4 +111,4 @@ with gr.Blocks(css=CSS, title="Krishi — Natural Farming Consultant") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=7860)
