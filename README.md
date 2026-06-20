@@ -1,3 +1,15 @@
+---
+title: Krishi Natural Farming Consultant
+emoji: 🌾
+colorFrom: green
+colorTo: yellow
+sdk: gradio
+sdk_version: "4.44.0"
+python_version: "3.10"
+app_file: app.py
+pinned: false
+---
+
 # 🌾 Krishi — Voice-Based Natural Farming Consultant
 
 Krishi is a voice-first AI assistant that helps farmers in rural India transition to natural farming. Farmers speak their question in Hindi, English, or mixed (Hinglish), and Krishi responds with practical organic advice — spoken back in the same language.
